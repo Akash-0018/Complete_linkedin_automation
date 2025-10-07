@@ -1,0 +1,106 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+/frontend/build
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+*.log
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Credentials and secrets
+/config/*.json
+google-sheets-credentials.json
+credentials.json
+token.json
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+temp/
+
+# Automation specific
+/scraper/logs/
+/scraper/backups/
+*.session
+*.session-journal
+
+# Browser automation artifacts
+*.screenshot.png
+*.har
+*.trace
+/user-data-dir/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Webpack
+.webpack/
+.hot/
+
+# Next.js
+.next/
+out/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Reports and coverage
+/reports/
+.nyc_output/
+coverage/
+
+# Compiled binary addons
+build/Release
