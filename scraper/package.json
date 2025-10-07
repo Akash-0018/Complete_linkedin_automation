@@ -1,0 +1,36 @@
+{
+  "name": "linkedin-profile-scraper",
+  "version": "1.0.0",
+  "description": "LinkedIn profile scraper with stealth, human-like behavior, Google Sheets integration, and anti-detection.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+  "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "puppeteer": "^21.3.8",
+    "googleapis": "^133.0.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^9.2.20",
+    "cli-progress": "^3.12.0",
+    "random-useragent": "^0.5.0",
+    "uuid": "^9.0.1",
+    "bull": "^4.12.2",
+    "commander": "^12.0.0",
+    "ora": "^5.4.1",
+    "node-cron": "^3.0.3",
+    "sequelize": "^6.37.1",
+    "sqlite3": "^5.1.7",
+    "express": "^4.18.3",
+    "axios": "^1.6.7",
+    "redis": "^4.6.13",
+    "cors": "^2.8.5",
+    "socket.io": "^4.7.4",
+    "validator": "^13.11.0",
+    "google-libphonenumber": "^3.2.33",
+    "winston": "^3.11.0",
+    "proxy-chain": "^2.4.0",
+    "csv-writer": "^1.6.0"
+  }
+}
