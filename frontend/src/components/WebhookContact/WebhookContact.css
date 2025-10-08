@@ -1,0 +1,82 @@
+.webhook-container {
+    padding: 2rem 0;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.content-card {
+    background-color: #ffffff !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+    transition: all 0.3s ease !important;
+}
+
+.content-card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08) !important;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.info-row .MuiSvgIcon-root {
+    color: #4285f4;
+}
+
+.status-chip {
+    margin-left: auto !important;
+}
+
+.status-chip.pending {
+    background-color: #e3f2fd !important;
+    color: #1976d2 !important;
+}
+
+.action-button {
+    background: linear-gradient(45deg, #4285f4, #5c9cff) !important;
+    color: white !important;
+    padding: 0.75rem 2rem !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    text-transform: none !important;
+    font-size: 1rem !important;
+    box-shadow: 0 4px 12px rgba(66, 133, 244, 0.2) !important;
+    transition: all 0.3s ease !important;
+}
+
+.action-button:hover {
+    background: linear-gradient(45deg, #3b78e7, #4285f4) !important;
+    box-shadow: 0 6px 16px rgba(66, 133, 244, 0.3) !important;
+}
+
+.action-button:disabled {
+    background: #e0e0e0 !important;
+    box-shadow: none !important;
+}
+
+.back-button {
+    color: #5f6368 !important;
+    border-radius: 8px !important;
+    padding: 6px !important;
+}
+
+.back-button:hover {
+    background-color: rgba(0, 0, 0, 0.04) !important;
+}
